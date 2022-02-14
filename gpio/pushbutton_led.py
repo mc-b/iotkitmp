@@ -2,8 +2,8 @@
 from machine import Pin
 from time import sleep
 
-led = Pin(5, Pin.OUT)
-button = Pin(0, Pin.IN)
+led = Pin(DEFAULT_IOTKIT_LED1, Pin.OUT)
+button = Pin(DEFAULT_IOTKIT_BUTTON1, Pin.IN)
 
 while True:
   led.value(button.value())

@@ -9,8 +9,8 @@ def handle_interrupt(pin):
     global interrupt_pin
     interrupt_pin = pin 
 
-led = Pin(26, Pin.OUT)
-pir = Pin(0, Pin.IN)
+led = Pin(DEFAULT_IOTKIT_LED1, Pin.OUT)
+pir = Pin(DEFAULT_IOTKIT_BUTTON1, Pin.IN)
 
 pir.irq(trigger=Pin.IRQ_FALLING, handler=handle_interrupt)
 
