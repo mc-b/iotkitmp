@@ -161,6 +161,7 @@
 <wire x1="87.3" y1="0" x2="87.3" y2="72.38" width="0" layer="20"/>
 <wire x1="87.3" y1="72.38" x2="0" y2="72.38" width="0" layer="20"/>
 <wire x1="0" y1="72.38" x2="0" y2="0" width="0" layer="20"/>
+<text x="2.54" y="19.05" size="1.4224" layer="25" rot="R90">+ IoTKitV3 - https://github.com/mc-b/iotkitmp</text>
 </plain>
 <libraries>
 <library name="srg">
