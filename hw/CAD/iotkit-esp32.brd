@@ -2059,6 +2059,16 @@ design rules under a new name.</description>
 <signal name="5V">
 <contactref element="U$2" pad="19"/>
 <contactref element="U$1" pad="5V"/>
+<contactref element="STEPPER2" pad="10"/>
+<contactref element="(+)STEPPER3" pad="1"/>
+<contactref element="STEPPER1" pad="10"/>
+<contactref element="(+)STEPPER2" pad="1"/>
+<contactref element="(+)STEPPER1" pad="1"/>
+<wire x1="35.56" y1="68.58" x2="50.8" y2="68.58" width="0" layer="19" extent="1-1"/>
+<wire x1="20.32" y1="68.58" x2="35.56" y2="68.58" width="0" layer="19" extent="1-1"/>
+<wire x1="49.53" y1="38.1" x2="50.8" y2="68.58" width="0" layer="19" extent="1-1"/>
+<wire x1="35.56" y1="30.48" x2="49.53" y2="38.1" width="0" layer="19" extent="1-1"/>
+<wire x1="76.2" y1="38.1" x2="49.53" y2="38.1" width="0" layer="19" extent="1-1"/>
 <wire x1="5.09" y1="5.09" x2="35.56" y2="30.48" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="3V3">
@@ -2166,17 +2176,6 @@ design rules under a new name.</description>
 <contactref element="U$2" pad="10"/>
 <contactref element="BUZZER" pad="+"/>
 <wire x1="5.09" y1="27.95" x2="6.91" y2="64.77" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="+5V">
-<contactref element="STEPPER1" pad="10"/>
-<contactref element="(+)STEPPER2" pad="1"/>
-<contactref element="(+)STEPPER1" pad="1"/>
-<contactref element="STEPPER2" pad="10"/>
-<contactref element="(+)STEPPER3" pad="1"/>
-<wire x1="49.53" y1="38.1" x2="76.2" y2="38.1" width="0" layer="19" extent="1-1"/>
-<wire x1="35.56" y1="68.58" x2="49.53" y2="38.1" width="0" layer="19" extent="1-1"/>
-<wire x1="20.32" y1="68.58" x2="35.56" y2="68.58" width="0" layer="19" extent="1-1"/>
-<wire x1="50.8" y1="68.58" x2="49.53" y2="38.1" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="PA0">
 <contactref element="IC1" pad="21"/>

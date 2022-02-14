@@ -7163,6 +7163,32 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <wire x1="71.12" y1="30.48" x2="66.04" y2="30.48" width="0.1524" layer="91"/>
 <label x="66.04" y="30.48" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="SUPPLY1" gate="+5V" pin="+5V"/>
+<pinref part="STEPPER2" gate="G$1" pin="10"/>
+<wire x1="109.22" y1="-22.86" x2="109.22" y2="-27.94" width="0.1524" layer="91"/>
+<wire x1="109.22" y1="-5.08" x2="109.22" y2="-22.86" width="0.1524" layer="91"/>
+<junction x="109.22" y="-22.86"/>
+<pinref part="(+)STEPPER3" gate="A" pin="1"/>
+<wire x1="68.58" y1="-13.97" x2="68.58" y2="-5.08" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="-5.08" x2="109.22" y2="-5.08" width="0.1524" layer="91"/>
+<label x="71.12" y="-7.62" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="SUPPLY3" gate="+5V" pin="+5V"/>
+<pinref part="STEPPER1" gate="G$1" pin="10"/>
+<wire x1="48.26" y1="-22.86" x2="48.26" y2="-27.94" width="0.1524" layer="91"/>
+<pinref part="(+)STEPPER2" gate="A" pin="1"/>
+<wire x1="30.48" y1="-13.97" x2="30.48" y2="-5.08" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="-5.08" x2="48.26" y2="-5.08" width="0.1524" layer="91"/>
+<wire x1="48.26" y1="-5.08" x2="48.26" y2="-22.86" width="0.1524" layer="91"/>
+<junction x="48.26" y="-22.86"/>
+<pinref part="(+)STEPPER1" gate="A" pin="1"/>
+<wire x1="7.62" y1="-13.97" x2="7.62" y2="-5.08" width="0.1524" layer="91"/>
+<wire x1="7.62" y1="-5.08" x2="30.48" y2="-5.08" width="0.1524" layer="91"/>
+<junction x="30.48" y="-5.08"/>
+<label x="48.26" y="-10.16" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="3V3" class="0">
 <segment>
@@ -7230,6 +7256,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <pinref part="STEPPER1" gate="G$1" pin="9"/>
 <pinref part="GND5" gate="1" pin="GND"/>
 <wire x1="48.26" y1="-55.88" x2="48.26" y2="-60.96" width="0.1524" layer="91"/>
+<label x="48.26" y="-60.96" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="A0"/>
@@ -7419,32 +7446,6 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <pinref part="BUZZER" gate="G$1" pin="1"/>
 <wire x1="7.62" y1="68.58" x2="7.62" y2="60.96" width="0.1524" layer="91"/>
 <label x="2.54" y="60.96" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="+5V" class="0">
-<segment>
-<pinref part="SUPPLY3" gate="+5V" pin="+5V"/>
-<pinref part="STEPPER1" gate="G$1" pin="10"/>
-<wire x1="48.26" y1="-22.86" x2="48.26" y2="-27.94" width="0.1524" layer="91"/>
-<pinref part="(+)STEPPER2" gate="A" pin="1"/>
-<wire x1="30.48" y1="-13.97" x2="30.48" y2="-5.08" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="-5.08" x2="48.26" y2="-5.08" width="0.1524" layer="91"/>
-<wire x1="48.26" y1="-5.08" x2="48.26" y2="-22.86" width="0.1524" layer="91"/>
-<junction x="48.26" y="-22.86"/>
-<pinref part="(+)STEPPER1" gate="A" pin="1"/>
-<wire x1="7.62" y1="-13.97" x2="7.62" y2="-5.08" width="0.1524" layer="91"/>
-<wire x1="7.62" y1="-5.08" x2="30.48" y2="-5.08" width="0.1524" layer="91"/>
-<junction x="30.48" y="-5.08"/>
-</segment>
-<segment>
-<pinref part="SUPPLY1" gate="+5V" pin="+5V"/>
-<pinref part="STEPPER2" gate="G$1" pin="10"/>
-<wire x1="109.22" y1="-22.86" x2="109.22" y2="-27.94" width="0.1524" layer="91"/>
-<wire x1="109.22" y1="-5.08" x2="109.22" y2="-22.86" width="0.1524" layer="91"/>
-<junction x="109.22" y="-22.86"/>
-<pinref part="(+)STEPPER3" gate="A" pin="1"/>
-<wire x1="68.58" y1="-13.97" x2="68.58" y2="-5.08" width="0.1524" layer="91"/>
-<wire x1="68.58" y1="-5.08" x2="109.22" y2="-5.08" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="PA0" class="0">
@@ -7741,6 +7742,8 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </sheet>
 </sheets>
 <errors>
+<approved hash="102,1,48.26,-22.86,+5V,5V,,,,"/>
+<approved hash="102,1,109.22,-22.86,+5V,5V,,,,"/>
 <approved hash="204,1,71.12,22.86,U$1,VIN,,,,"/>
 <approved hash="104,1,71.12,25.4,U$1,GND1,GND,,,"/>
 <approved hash="104,1,71.12,27.94,U$1,GND2,GND,,,"/>
@@ -7748,11 +7751,8 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <approved hash="104,1,154.94,-12.7,IC1,VDD,3V3,,,"/>
 <approved hash="104,1,154.94,-53.34,IC1,VSS,GND,,,"/>
 <approved hash="113,1,38.4217,72.39,LED2,,,,,"/>
-<approved hash="113,1,11.2039,-9.54588,(+)STEPPER1,,,,,"/>
-<approved hash="113,1,34.0639,-9.54588,(+)STEPPER2,,,,,"/>
 <approved hash="113,1,26.3423,-41.91,STEPPER1,,,,,"/>
 <approved hash="113,1,144.78,-16.6903,10K,,,,,"/>
-<approved hash="113,1,72.1639,-9.54588,(+)STEPPER3,,,,,"/>
 <approved hash="113,1,87.3023,-41.91,STEPPER2,,,,,"/>
 </errors>
 </schematic>
