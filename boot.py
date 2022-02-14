@@ -26,7 +26,7 @@ print(station.ifconfig())
 
 ### Default Pins esp32-devkitC-V4 bzw. Mapping auf IoTKitV3.1 small
 
-DEFAULT_IOTKIT_LED1 = 26
+DEFAULT_IOTKIT_LED1 = 5
 DEFAULT_IOTKIT_BUZZER = 25
 DEFAULT_IOTKIT_BUTTON1 = 0
 
