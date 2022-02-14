@@ -2,7 +2,7 @@
 # Test der MQTT Library
 
 import time
-from lib.mqtt.umqttsimple import MQTTClient
+from umqtt.robust import MQTTClient
 import ubinascii
 import machine
 import micropython
