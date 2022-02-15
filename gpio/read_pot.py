@@ -1,5 +1,6 @@
 from machine import Pin, ADC
 from time import sleep
+from lib.config import *
 
 pot = ADC(Pin(32))
 pot.atten(ADC.ATTN_11DB)       #Full range: 3.3v

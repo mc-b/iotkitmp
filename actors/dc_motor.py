@@ -1,6 +1,7 @@
 from lib.actors.dcmotor import DCMotor
 from machine import Pin, PWM
 from time import sleep
+from lib.config import *
 
 frequency = 15000
 

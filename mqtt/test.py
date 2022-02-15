@@ -5,6 +5,7 @@ import time
 from umqtt.robust import MQTTClient
 import ubinascii
 import machine
+from lib.config import *
 import micropython
 import network
 

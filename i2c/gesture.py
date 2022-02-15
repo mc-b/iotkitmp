@@ -1,6 +1,7 @@
 from time import sleep
 
 from machine import Pin, I2C
+from lib.config import *
 
 from lib.sensors.apds9960 import *
 from lib.sensors.apds9960 import uAPDS9960 as APDS9960

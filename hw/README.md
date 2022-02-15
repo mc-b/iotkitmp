@@ -1,7 +1,10 @@
 ESP32-DevKitC
 -------------
+***
 
-![](images/esp32-devkitC-v4-pinout.png)
+> [⇧ **Home**](../README.md)
+
+![](../images/esp32-devkitC-v4-pinout.png)
 
 - - -
 

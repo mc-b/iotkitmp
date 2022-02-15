@@ -1,4 +1,5 @@
 import machine
+from lib.config import *
 
 i2c = machine.SoftI2C(sda=machine.Pin(DEFAULT_IOTKIT_I2C_SDA), scl=machine.Pin(DEFAULT_IOTKIT_I2C_SCL))
 

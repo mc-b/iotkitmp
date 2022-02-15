@@ -11,7 +11,7 @@ Dazu ist das Board via USB anzuschliessen und zuerst
     esptool.py --chip esp32 --port COM-Port erase_flash
     esptool.py --chip esp32 --port COM-Port --baud 460800 write_flash -z 0x1000 esp32-idf3-20210202-v1.14.bin
 
-Der **COM-Port** ist entsprechend anzupassen. Weil bei der Version > 1.14 PWM nicht funktioniert, ist die Version 1.14 zu flashen.
+Der **COM-Port** ist entsprechend anzupassen. Weil bei Versionen > 1.14 PWM nicht funktioniert, ist die Version 1.14 zu flashen.
 
 Anschliessend werden noch folgende Produkte benötigt:
 * [NodeJS](https://nodejs.org/) - wird von VS Extension Pymark benötigt
@@ -65,4 +65,4 @@ Die wichtigsten Pymakr Befehle sind:
 * **Run** - führt den Python Code im aktuellen Fenster aus
 * **Upload** - alle Dateien im geöffneten Verzeichnis auf das Board laden
 
-
+Wenn alles funktioniert, ein neues leeres Verzeichnis `Open Folder` in VSCode öffnen, dass Repository clonen und alle Dateien mittels **Upload** auf das Board laden.

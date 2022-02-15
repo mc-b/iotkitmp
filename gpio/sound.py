@@ -1,4 +1,5 @@
 import time, math, machine
+from lib.config import *
 
 def pulse(l, t):
     for i in range(20):

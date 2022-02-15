@@ -1,6 +1,7 @@
 from machine import Pin, PWM
 import time 
 from lib.actors.servo import Servo
+from lib.config import *
 
 PAUSE = 0.01
 
