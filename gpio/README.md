@@ -23,7 +23,7 @@ Oder einen digitalen Wert (0 oder 1) eines Pins abzufragen.
 
 **Beispiele**
 
-* [pushbutton_led.py](pushbutton.py) - bringt die LED zum leuchten, wenn der `Boot` Button gedrückt wird.
+* [pushbutton_led.py](pushbutton_led.py) - bringt die LED zum leuchten, wenn der `Boot` Button gedrückt wird.
 * [interrupt.py](interrupt.py) - wie pusbutton aber mittels Interrupts gesteuert.
 
 **Anwendungen Output** 
