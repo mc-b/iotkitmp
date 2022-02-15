@@ -1,7 +1,7 @@
 ## SPI (Serial Peripheral Interface)
 ***
 
-> [⇧ **Home**](https://github.com/iotkitv3/intro)
+> [⇧ **Home**](../README.md)
 
 ![](https://raw.githubusercontent.com/iotkitv3/intro/main/images/SPI.png)
 

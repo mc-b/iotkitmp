@@ -1,7 +1,7 @@
 ## I²C/TWI (Inter-Integrated Circuit, bzw. Two-Wire-Interface)
 ***
 
-> [⇧ **Home**](https://github.com/iotkitv3/intro)
+> [⇧ **Home**](../README.md)
 
 ![](https://raw.githubusercontent.com/iotkitv3/intro/main/images/I2C.png) 
 
