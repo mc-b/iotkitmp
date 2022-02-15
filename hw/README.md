@@ -19,13 +19,8 @@ ESP32-DevKitC
 ### Pins
 
 * 22 Pins In/Out
-*  4 Pins nur Input
-* max. 8 PWM Channels
-
-### Firmware Update
-
-    esptool.py --chip esp32 --port COM13 erase_flash
-    esptool.py --chip esp32 --port COM13 --baud 460800 write_flash -z 0x1000 hw/firmware/esp32-idf3-20210202-v1.14.bin
+*  4 Pins nur Input (34, 35, 36, 39)
+* max. 8 PWM Channels gleichzeitig
 
 ### Links
 
