@@ -1,7 +1,7 @@
 ESP32 DevKitC und IoTKitV3
 ==========================
 
-Beispiele für die [ESP32 DevKitC](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/hw-reference/esp32/get-started-devkitc.html) Board mit [IoTKit V3 Shield](https://github.com/iotkitv3/iotkit#iotkit-v3-shield-small)
+Beispiele für das [ESP32 DevKitC](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/hw-reference/esp32/get-started-devkitc.html) Board in Kombination mit dem [IoTKit V3 Shield](https://github.com/iotkitv3/iotkit#iotkit-v3-shield-small).
 
 Dieses Repository basiert auf den Erfahrungen mit dem [IoTKitV1 - V3](https://github.com/iotkitv3/intro).
 
