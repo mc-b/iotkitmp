@@ -70,7 +70,6 @@ In der Elektronik erfolgt die Umsetzung eines elektrischen Analogsignals in ein 
 **Beispiele**
 
 * [read_pot.py](read_pot.py) - liest den Wert des Potentimeters auf dem IoTKitV3 Shield und gibt diesen in der Console aus.
-* [read_hall.py](read_hall.py) - wie read_pot.py für den Hall (Magnet)-Sensor.
 
 **Anwendungen**
 
