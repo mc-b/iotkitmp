@@ -21,7 +21,7 @@ Dieses Repository basiert auf den Erfahrungen mit dem [IoTKitV1 - V3](https://gi
 
 ### Internet IoT Protokolle
 
-* [WLAN](wlan/)
+* [WLAN](wlan/) inkl. Konfiguration SSID und WLAN Password.
 * [HTTP und REST](http/) 
 * [MQTT](mqtt/)
 
