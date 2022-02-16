@@ -3,7 +3,7 @@ from lib.sensors.bmp180 import BMP180
 from time import sleep
 from lib.config import *
 from lib.oled.ssd1306 import SSD1306_I2C
-import urequests
+import usocket as socket
 
 # 
 i2c = SoftI2C(sda=Pin(DEFAULT_IOTKIT_I2C_SDA), scl=Pin(DEFAULT_IOTKIT_I2C_SCL))
@@ -21,12 +21,22 @@ while True:
   display.text("Temp: " + str(temp), 0, 0)
   display.text("Pres: " + str(pres / 1000), 0, 8)
   display.show()
-  print ( values )
+  print ( values ) 
 
-  try:
-    req = urequests.request(method='POST', url='http://api.thingspeak.com/update?' + values)
-  except:
-    print( 'failed')
+  s = socket.socket()
+
+  ai = socket.getaddrinfo("api.thingspeak.com", 80)
+  print("Address infos:", ai)
+  addr = ai[0][-1]
+
+  print("Connect address:", addr)
+  s.connect(addr)
+
+  s.send(b"GET /update?" + values + " HTTP/1.1\r\nHost: api.thingspeak.com\r\n\r\n" )
+  # rc = s.recv(4096)
+  # print( rc )
+  s.close()
 
   sleep( 15 )
   
+
