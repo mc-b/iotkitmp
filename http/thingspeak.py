@@ -14,11 +14,19 @@ bmp180.oversample_sett = 2
 bmp180.baseline = 101325
 
 while True:
-  try:
-    temp = bmp180.temperature
-    pres = bmp180.pressure
+  temp = bmp180.temperature
+  pres = bmp180.pressure
+  values = "key=" + "A2ABBMDJYRAMA6JM" + "&field1=" + str(temp) + "&field2=" + str(pres / 1000)
 
-    req = urequests.request(method='POST', url='http://api.thingspeak.com/update',json={'key':'A2ABBMDJYRAMA6JM','field1':(temp),'field2':(pres)})
+  display.text("Temp: " + str(temp), 0, 0)
+  display.text("Pres: " + str(pres / 1000), 0, 8)
+  display.show()
+  print ( values )
+
+  try:
+    req = urequests.request(method='POST', url='http://api.thingspeak.com/update?' + values)
   except:
-    print('failed')
+    print( 'failed')
+
   sleep( 15 )
+  

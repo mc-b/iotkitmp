@@ -133,7 +133,7 @@ class BMP180():
         Temperature in degree C.
         '''
         next(self.gauge)
-        print ( "temp" + str(self._MD) )
+        # print ( "temp" + str(self._MD) )
         try:
             UT = unp('>H', self.UT_raw)[0]
         except:
