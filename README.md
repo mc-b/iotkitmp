@@ -3,7 +3,7 @@ ESP32 DevKitC und IoTKitV3
 
 | ESP32 DevKitC | IoTKitV3 Shield |
 | ---------- | ------ |
-| ![](https://docs.micropython.org/en/latest/_images/esp32.jpg) | ![](https://github.com/mc-b/IoTKitV3/raw/master/images/ShieldSmall.png) |
+| ![](https://docs.micropython.org/en/latest/_images/esp32.jpg) | ![](https://raw.githubusercontent.com/iotkitv3/intro/main/images/ShieldSmall.png) |
 | Quelle: [Micropython](https://docs.micropython.org/en/latest/esp32/quickref.html) | Quelle: [IoTKitV3](https://github.com/iotkitv3/intro) |
 
 Beispiele für das [ESP32 DevKitC](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/hw-reference/esp32/get-started-devkitc.html) Board in Kombination mit dem [IoTKit V3 Shield](https://github.com/iotkitv3/iotkit#iotkit-v3-shield-small).
