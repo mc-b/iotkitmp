@@ -130,3 +130,4 @@ hw/firmware/esp32-idf3-20210202-v1.14.bin
 *.b#*
 *.s#*
 /.pydevproject
+hw/CAD/iotkit-esp32.pro
