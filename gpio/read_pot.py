@@ -2,7 +2,7 @@ from machine import Pin, ADC
 from time import sleep
 from lib.config import *
 
-pot = ADC(Pin(32))
+pot = ADC(Pin(DEFAULT_IOTKIT_POTI))
 pot.atten(ADC.ATTN_11DB)       #Full range: 3.3v
 
 while True:

@@ -3,9 +3,9 @@ from machine import Pin, SoftSPI
 from lib.config import *
 from lib.sensors.mfrc522 import MFRC522
 
-sck = Pin(DEFAULT_IOTKIT_SPI_SCLK, Pin.OUT)
-mosi = Pin(DEFAULT_IOTKIT_SPI_MOSI, Pin.OUT)
-miso = Pin(DEFAULT_IOTKIT_SPI_MISO, Pin.OUT)
+sck = Pin(DEFAULT_IOTKIT_SPI_SCLK)
+mosi = Pin(DEFAULT_IOTKIT_SPI_MOSI)
+miso = Pin(DEFAULT_IOTKIT_SPI_MISO)
 spi = SoftSPI(baudrate=100000, polarity=0, phase=0, sck=sck, mosi=mosi, miso=miso)
 sda = Pin(DEFAULT_IOTKIT_SPI_SS, Pin.OUT)
 

@@ -17,13 +17,13 @@ try:
         for servo in servos:
           servo.set(duty)
           time.sleep(PAUSE) 
+    time.sleep( 1.0 )          
 
     for duty in range(80, 20, -1):
         for servo in servos:
           servo.set(duty)
           time.sleep(PAUSE)
 
-    time.sleep( 2.0 )          
 
 finally:
     for servo in servos:
