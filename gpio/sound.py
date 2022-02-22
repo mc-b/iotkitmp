@@ -6,9 +6,19 @@ def pulse(l, t):
         l.duty(int(math.sin(i / 10 * math.pi) * 500 + 500))
         time.sleep_ms(t)
 
-led = machine.PWM(machine.Pin(26), freq=100)
+buzzer = machine.Pin(DEFAULT_IOTKIT_BUZZER)
 
-for i in range(10):
-    pulse(led, 20)
+while True:
+    try:
+        p = machine.PWM(buzzer, freq=3969, duty=50 )
+        time.sleep( 0.5 )
+        p = machine.PWM(buzzer, freq=2800, duty=50 )    
+        time.sleep( 0.5 )
+    except:
+        p = machine.PWM(buzzer, freq=0, duty=0 ) 
+        break
+
+
+
 
 
