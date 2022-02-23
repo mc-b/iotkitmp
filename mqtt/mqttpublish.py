@@ -1,6 +1,8 @@
 ####
-# Test der MQTT Library
-
+# MQTT Publish 
+#
+# Wertet Temperatur Sensor, Button und RFID Reader aus und sendet die Daten an MQTT Broker
+ 
 import time
 from machine import I2C, Pin, SoftI2C, SoftSPI
 from lib.sensors.bmp180 import BMP180
@@ -21,10 +23,8 @@ topicALERT  = b"iotkit/alert"
 topicRFID   = b"iotkit/rfid"
 topicSERVO  = b"iotkit/servo"
 # MQTT Brocker
-# hostname    = "cloud.tbz.ch"
-# port        = 1883
-hostname    = "3.227.202.165"
-port        = 31883
+hostname    = "cloud.tbz.ch"
+port        = 1883
 
 # Klassifikation 
 cls       = ( "low", "middle", "high" )
