@@ -161,7 +161,7 @@ Um dies zu Demonstrieren erstellen wir eine Input MQTT Node welche das Topic `io
     
 Details zum BPMN Prozess und der URL wie ein Prozess gestartet werden kann steht im [Frontend](https://github.com/mc-b/misegr/tree/master/bpmn) Beispiel bei `$.post`.
 
-Der Flow zum importieren und anpassen, siehe [Node-RED-REST.json](Node-RED-REST.json).
+Der Flow zum importieren und anpassen, siehe [Node-RED-REST.json](https://raw.githubusercontent.com/iotkitv3/edge/main/Node-RED-REST.json).
 
 ***
 ### Node-RED (MQTT - Kafka Messaging)
@@ -205,7 +205,7 @@ Dadurch erhalten wird neu `Nodes` für die Integration mit [Apache Kafka](https:
 
 Topics auslesen, lesen und schreiben auf Topics in Kafka Container, siehe [Projekt duk](https://github.com/mc-b/duk/tree/master/kafka).
 
-Der Flow zum importieren und anpassen, siehe [Node-RED-Kafka.json](Node-RED-Kafka.json).
+Der Flow zum importieren und anpassen, siehe [Node-RED-Kafka.json](https://raw.githubusercontent.com/iotkitv3/edge/main/Node-RED-Kafka.json).
 
 ***
 ### Machine Learning mit Juypter Notebooks
