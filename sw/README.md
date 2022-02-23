@@ -77,3 +77,10 @@ Die wichtigsten Pymakr Befehle sind:
 * **Upload** - alle Dateien im geöffneten Verzeichnis auf das Board laden
 
 Wenn alles funktioniert, ein neues leeres Verzeichnis `Open Folder` in VSCode öffnen, dass Repository [https://github.com/mc-b/iotkitmp.git](https://github.com/mc-b/iotkitmp.git) clonen und alle Dateien mittels **Upload** auf das Board laden.
+
+Anschliessend eine Python `.py` Datei aus den Unterverzeichnissen [gpio](../gpio/), [sensors](../sensors/), [actors](../actors/), [http](../http/) etc. geöffnet werden und mittels **Run** ausgeführt werden.
+
+Für die [http](../http/) Beispiele ist, evtl. in der Datei [boot.py](../boot.py), die WLAN SSID und Password anzupassen. Die [boot.py](../boot.py) Datei wird bei jedem Start/Reboot des Boards durchlaufen.
+
+Soll ein bestimmtes Beispiel, jedesmal beim Start/Reboot des Boards durchlaufen werden, ist dessen Inhalt in die Datei [main.py](../main.py) zu kopieren.
+

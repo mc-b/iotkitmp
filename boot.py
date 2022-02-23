@@ -1,14 +1,14 @@
 #####
-# Boot - wird beim Reset der Device
+# Boot - wird beim Start/Reboot der Device durchlaufen. 
+# 
+# Dient z.B. zum Verbinden des Boards mit dem WLAN.
 #
-# Verbindet Device mit WLAN
 
 import network
 import esp
 esp.osdebug(None)
 import gc
 gc.collect()
-
 
 # WLAN
 ssid = 'LERNKUBE'

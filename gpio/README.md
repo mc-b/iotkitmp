@@ -13,6 +13,8 @@ Allzweckeingabe/-ausgabe (engl. GPIO - General Purpose Input/Output) ist ein all
 
 Die Boards, bzw. Micropython verfügt u.a. über die nachfolgenden Funktionen um GPIOs direkt anzusteuern.
 
+Welche Pins, welche Aufgaben zugewiesen wurden steht in der [config](../lib/config.py) Datei. Wird statt dem ESP32 DevKitC ein [M5Stack Core 2](https://docs.m5stack.com/en/core/core2) verwendet, ist der Inhalt von [lib/config-m5stack.py](../lib/config-m5stack.py) in die Datei [lib/config.py](../lib/config.py) zu kopieren und ein **Upload** durchzuführen.
+
 ### Pin 
 
 Dient dazu um den digitalen Wert eines Pins Ein/Aus zu setzen. 
