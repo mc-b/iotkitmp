@@ -7821,9 +7821,9 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <label x="137.16" y="43.18" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="M5STACK" gate="A" pin="11"/>
-<wire x1="-38.1" y1="33.02" x2="-50.8" y2="33.02" width="0.1524" layer="91"/>
-<label x="-50.8" y="33.02" size="1.778" layer="95"/>
+<pinref part="M5STACK" gate="A" pin="12"/>
+<wire x1="-30.48" y1="33.02" x2="-20.32" y2="33.02" width="0.1524" layer="91"/>
+<label x="-20.32" y="33.02" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="D12" class="0">
@@ -7838,9 +7838,9 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <label x="137.16" y="40.64" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="M5STACK" gate="A" pin="9"/>
-<wire x1="-38.1" y1="35.56" x2="-50.8" y2="35.56" width="0.1524" layer="91"/>
-<label x="-50.8" y="35.56" size="1.778" layer="95"/>
+<pinref part="M5STACK" gate="A" pin="10"/>
+<wire x1="-30.48" y1="35.56" x2="-20.32" y2="35.56" width="0.1524" layer="91"/>
+<label x="-20.32" y="35.56" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="D11" class="0">
@@ -7855,9 +7855,9 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <label x="137.16" y="38.1" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="M5STACK" gate="A" pin="7"/>
-<wire x1="-38.1" y1="38.1" x2="-50.8" y2="38.1" width="0.1524" layer="91"/>
-<label x="-50.8" y="38.1" size="1.778" layer="95"/>
+<pinref part="M5STACK" gate="A" pin="8"/>
+<wire x1="-30.48" y1="38.1" x2="-20.32" y2="38.1" width="0.1524" layer="91"/>
+<label x="-20.32" y="38.1" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="D10" class="0">
@@ -7872,9 +7872,9 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <label x="137.16" y="35.56" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="M5STACK" gate="A" pin="8"/>
-<wire x1="-30.48" y1="38.1" x2="-20.32" y2="38.1" width="0.1524" layer="91"/>
-<label x="-22.86" y="38.1" size="1.778" layer="95"/>
+<pinref part="M5STACK" gate="A" pin="7"/>
+<wire x1="-38.1" y1="38.1" x2="-48.26" y2="38.1" width="0.1524" layer="91"/>
+<label x="-48.26" y="38.1" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="D8" class="0">
@@ -7889,14 +7889,14 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <label x="137.16" y="30.48" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="M5STACK" gate="A" pin="10"/>
-<wire x1="-30.48" y1="35.56" x2="-20.32" y2="35.56" width="0.1524" layer="91"/>
-<label x="-22.86" y="35.56" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="PORT_B" gate="G$1" pin="2"/>
 <wire x1="-34.29" y1="-11.43" x2="-34.29" y2="-17.78" width="0.1524" layer="91"/>
 <label x="-35.56" y="-20.32" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="M5STACK" gate="A" pin="9"/>
+<wire x1="-38.1" y1="35.56" x2="-48.26" y2="35.56" width="0.1524" layer="91"/>
+<label x="-48.26" y="35.56" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="D9" class="0">
@@ -7916,9 +7916,9 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <label x="-38.1" y="-17.78" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="M5STACK" gate="A" pin="21"/>
-<wire x1="-38.1" y1="20.32" x2="-50.8" y2="20.32" width="0.1524" layer="91"/>
-<label x="-50.8" y="20.32" size="1.778" layer="95"/>
+<pinref part="M5STACK" gate="A" pin="22"/>
+<wire x1="-30.48" y1="20.32" x2="-20.32" y2="20.32" width="0.1524" layer="91"/>
+<label x="-20.32" y="20.32" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="A2" class="0">
@@ -7933,9 +7933,9 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <label x="66.04" y="12.7" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="M5STACK" gate="A" pin="2"/>
-<wire x1="-30.48" y1="45.72" x2="-20.32" y2="45.72" width="0.1524" layer="91"/>
-<label x="-22.86" y="45.72" size="1.778" layer="95"/>
+<pinref part="M5STACK" gate="A" pin="1"/>
+<wire x1="-38.1" y1="45.72" x2="-48.26" y2="45.72" width="0.1524" layer="91"/>
+<label x="-48.26" y="45.72" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="A3" class="0">
@@ -7950,9 +7950,9 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <label x="66.04" y="10.16" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="M5STACK" gate="A" pin="4"/>
-<wire x1="-30.48" y1="43.18" x2="-20.32" y2="43.18" width="0.1524" layer="91"/>
-<label x="-22.86" y="43.18" size="1.778" layer="95"/>
+<pinref part="M5STACK" gate="A" pin="3"/>
+<wire x1="-38.1" y1="43.18" x2="-48.26" y2="43.18" width="0.1524" layer="91"/>
+<label x="-48.26" y="43.18" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="A4" class="0">
@@ -7967,9 +7967,9 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <label x="66.04" y="7.62" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="M5STACK" gate="A" pin="14"/>
-<wire x1="-30.48" y1="30.48" x2="-20.32" y2="30.48" width="0.1524" layer="91"/>
-<label x="-22.86" y="30.48" size="1.778" layer="95"/>
+<pinref part="M5STACK" gate="A" pin="13"/>
+<wire x1="-38.1" y1="30.48" x2="-48.26" y2="30.48" width="0.1524" layer="91"/>
+<label x="-48.26" y="30.48" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="A5" class="0">
@@ -7984,9 +7984,9 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <label x="66.04" y="5.08" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="M5STACK" gate="A" pin="13"/>
-<wire x1="-38.1" y1="30.48" x2="-50.8" y2="30.48" width="0.1524" layer="91"/>
-<label x="-50.8" y="30.48" size="1.778" layer="95"/>
+<pinref part="M5STACK" gate="A" pin="14"/>
+<wire x1="-30.48" y1="30.48" x2="-20.32" y2="30.48" width="0.1524" layer="91"/>
+<label x="-20.32" y="30.48" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="5V" class="0">
@@ -8027,11 +8027,6 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <label x="48.26" y="-10.16" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="M5STACK" gate="A" pin="28"/>
-<wire x1="-30.48" y1="12.7" x2="-20.32" y2="12.7" width="0.1524" layer="91"/>
-<label x="-22.86" y="12.7" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="PORT_A" gate="G$1" pin="3"/>
 <wire x1="-46.99" y1="-11.43" x2="-46.99" y2="-17.78" width="0.1524" layer="91"/>
 <label x="-48.26" y="-17.78" size="1.778" layer="95"/>
@@ -8045,6 +8040,11 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <pinref part="PORT_B" gate="G$1" pin="3"/>
 <wire x1="-31.75" y1="-11.43" x2="-31.75" y2="-17.78" width="0.1524" layer="91"/>
 <label x="-33.02" y="-17.78" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="M5STACK" gate="A" pin="27"/>
+<wire x1="-38.1" y1="12.7" x2="-48.26" y2="12.7" width="0.1524" layer="91"/>
+<label x="-48.26" y="12.7" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="3V3" class="0">
@@ -8066,9 +8066,9 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <wire x1="139.7" y1="-12.7" x2="139.7" y2="-17.78" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="M5STACK" gate="A" pin="12"/>
-<wire x1="-30.48" y1="33.02" x2="-20.32" y2="33.02" width="0.1524" layer="91"/>
-<label x="-22.86" y="33.02" size="1.778" layer="95"/>
+<pinref part="M5STACK" gate="A" pin="11"/>
+<wire x1="-38.1" y1="33.02" x2="-48.26" y2="33.02" width="0.1524" layer="91"/>
+<label x="-48.26" y="33.02" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -8156,19 +8156,6 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <pinref part="R" gate="G$1" pin="1"/>
 </segment>
 <segment>
-<pinref part="M5STACK" gate="A" pin="1"/>
-<wire x1="-38.1" y1="45.72" x2="-50.8" y2="45.72" width="0.1524" layer="91"/>
-<pinref part="M5STACK" gate="A" pin="3"/>
-<wire x1="-50.8" y1="45.72" x2="-50.8" y2="43.18" width="0.1524" layer="91"/>
-<wire x1="-50.8" y1="43.18" x2="-38.1" y2="43.18" width="0.1524" layer="91"/>
-<pinref part="M5STACK" gate="A" pin="5"/>
-<wire x1="-50.8" y1="43.18" x2="-50.8" y2="40.64" width="0.1524" layer="91"/>
-<wire x1="-50.8" y1="40.64" x2="-38.1" y2="40.64" width="0.1524" layer="91"/>
-<junction x="-50.8" y="43.18"/>
-<wire x1="-50.8" y1="43.18" x2="-55.88" y2="43.18" width="0.1524" layer="91"/>
-<label x="-58.42" y="43.18" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="PORT_A" gate="G$1" pin="4"/>
 <wire x1="-44.45" y1="-11.43" x2="-44.45" y2="-17.78" width="0.1524" layer="91"/>
 <label x="-45.72" y="-20.32" size="1.778" layer="95"/>
@@ -8183,6 +8170,19 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <wire x1="-29.21" y1="-11.43" x2="-29.21" y2="-17.78" width="0.1524" layer="91"/>
 <label x="-30.48" y="-20.32" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="M5STACK" gate="A" pin="2"/>
+<wire x1="-30.48" y1="45.72" x2="-20.32" y2="45.72" width="0.1524" layer="91"/>
+<pinref part="M5STACK" gate="A" pin="4"/>
+<wire x1="-20.32" y1="45.72" x2="-20.32" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="-20.32" y1="43.18" x2="-30.48" y2="43.18" width="0.1524" layer="91"/>
+<pinref part="M5STACK" gate="A" pin="6"/>
+<wire x1="-20.32" y1="43.18" x2="-20.32" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="-20.32" y1="40.64" x2="-30.48" y2="40.64" width="0.1524" layer="91"/>
+<junction x="-20.32" y="43.18"/>
+<wire x1="-20.32" y1="43.18" x2="-15.24" y2="43.18" width="0.1524" layer="91"/>
+<label x="-17.78" y="43.18" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="D2" class="0">
 <segment>
@@ -8196,9 +8196,9 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <label x="137.16" y="12.7" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="M5STACK" gate="A" pin="23"/>
-<wire x1="-38.1" y1="17.78" x2="-50.8" y2="17.78" width="0.1524" layer="91"/>
-<label x="-50.8" y="17.78" size="1.778" layer="95"/>
+<pinref part="M5STACK" gate="A" pin="24"/>
+<wire x1="-30.48" y1="17.78" x2="-20.32" y2="17.78" width="0.1524" layer="91"/>
+<label x="-20.32" y="17.78" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="D4" class="0">
@@ -8213,9 +8213,9 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <label x="137.16" y="17.78" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="M5STACK" gate="A" pin="24"/>
-<wire x1="-30.48" y1="17.78" x2="-20.32" y2="17.78" width="0.1524" layer="91"/>
-<label x="-22.86" y="17.78" size="1.778" layer="95"/>
+<pinref part="M5STACK" gate="A" pin="23"/>
+<wire x1="-38.1" y1="17.78" x2="-48.26" y2="17.78" width="0.1524" layer="91"/>
+<label x="-48.26" y="17.78" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="D3" class="0">
@@ -8230,9 +8230,9 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <label x="137.16" y="15.24" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="M5STACK" gate="A" pin="22"/>
-<wire x1="-30.48" y1="20.32" x2="-20.32" y2="20.32" width="0.1524" layer="91"/>
-<label x="-22.86" y="20.32" size="1.778" layer="95"/>
+<pinref part="M5STACK" gate="A" pin="21"/>
+<wire x1="-38.1" y1="20.32" x2="-48.26" y2="20.32" width="0.1524" layer="91"/>
+<label x="-48.26" y="20.32" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="D5" class="0">
@@ -8288,14 +8288,14 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <label x="147.32" y="-38.1" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="M5STACK" gate="A" pin="19"/>
-<wire x1="-38.1" y1="22.86" x2="-50.8" y2="22.86" width="0.1524" layer="91"/>
-<label x="-50.8" y="22.86" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="PORT_A" gate="G$1" pin="2"/>
 <wire x1="-49.53" y1="-11.43" x2="-49.53" y2="-17.78" width="0.1524" layer="91"/>
 <label x="-53.34" y="-20.32" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="M5STACK" gate="A" pin="20"/>
+<wire x1="-30.48" y1="22.86" x2="-20.32" y2="22.86" width="0.1524" layer="91"/>
+<label x="-20.32" y="22.86" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SCL" class="0">
@@ -8315,14 +8315,14 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <label x="147.32" y="-35.56" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="M5STACK" gate="A" pin="20"/>
-<wire x1="-30.48" y1="22.86" x2="-20.32" y2="22.86" width="0.1524" layer="91"/>
-<label x="-22.86" y="22.86" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="PORT_A" gate="G$1" pin="1"/>
 <wire x1="-52.07" y1="-11.43" x2="-52.07" y2="-17.78" width="0.1524" layer="91"/>
 <label x="-58.42" y="-17.78" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="M5STACK" gate="A" pin="19"/>
+<wire x1="-38.1" y1="22.86" x2="-48.26" y2="22.86" width="0.1524" layer="91"/>
+<label x="-48.26" y="22.86" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="D1" class="0">
@@ -8337,14 +8337,14 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <label x="137.16" y="10.16" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="M5STACK" gate="A" pin="16"/>
-<wire x1="-30.48" y1="27.94" x2="-20.32" y2="27.94" width="0.1524" layer="91"/>
-<label x="-22.86" y="27.94" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="PORT_C" gate="G$1" pin="2"/>
 <wire x1="-16.51" y1="-11.43" x2="-16.51" y2="-17.78" width="0.1524" layer="91"/>
 <label x="-20.32" y="-20.32" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="M5STACK" gate="A" pin="15"/>
+<wire x1="-38.1" y1="27.94" x2="-48.26" y2="27.94" width="0.1524" layer="91"/>
+<label x="-48.26" y="27.94" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="D0" class="0">
@@ -8359,14 +8359,14 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <label x="137.16" y="7.62" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="M5STACK" gate="A" pin="15"/>
-<wire x1="-38.1" y1="27.94" x2="-50.8" y2="27.94" width="0.1524" layer="91"/>
-<label x="-50.8" y="27.94" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="PORT_C" gate="G$1" pin="1"/>
 <wire x1="-19.05" y1="-11.43" x2="-19.05" y2="-17.78" width="0.1524" layer="91"/>
 <label x="-22.86" y="-17.78" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="M5STACK" gate="A" pin="16"/>
+<wire x1="-30.48" y1="27.94" x2="-20.32" y2="27.94" width="0.1524" layer="91"/>
+<label x="-20.32" y="27.94" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="LED1" class="0">
