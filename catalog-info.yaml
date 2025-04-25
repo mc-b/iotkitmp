@@ -9,8 +9,8 @@ metadata:
   - ioe
   - iot
   - kubernetes
-  - education
   - iotkit
+  - python
   links:
   - url: https://github.com/mc-b/IoTKitMP
     title: Repository
