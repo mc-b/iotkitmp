@@ -1,0 +1,25 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: IoTKitMP
+  namespace: mc-b
+  description: 'IoT Teil zum Kurs: Moderne Technologien mit IoT, AI, Container, Kubernetes (MicroPython)'
+  tags:
+  - containers
+  - ioe
+  - iot
+  - kubernetes
+  - education
+  - iotkit
+  links:
+  - url: https://github.com/mc-b/IoTKitMP
+    title: Repository
+    icon: github
+  annotations:
+    github.com/project-slug: mc-b/IoTKitMP
+    backstage.io/source-location: url:https://github.com/mc-b/IoTKitMP
+    # backstage.io/techdocs-ref: url:https://github.com/mc-b/IoTKitMP
+spec:
+  type: education
+  lifecycle: experimental
+  owner: group:mc-b/mc-b
