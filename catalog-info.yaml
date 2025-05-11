@@ -11,6 +11,7 @@ metadata:
   - kubernetes
   - iotkit
   - python
+  - education
   links:
   - url: https://github.com/mc-b/IoTKitMP
     title: Repository
@@ -20,6 +21,6 @@ metadata:
     backstage.io/source-location: url:https://github.com/mc-b/IoTKitMP
     # backstage.io/techdocs-ref: url:https://github.com/mc-b/IoTKitMP
 spec:
-  type: education
+  type: website 
   lifecycle: experimental
   owner: group:mc-b/mc-b
