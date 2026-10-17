@@ -22,5 +22,5 @@ metadata:
     # backstage.io/techdocs-ref: url:https://github.com/mc-b/IoTKitMP
 spec:
   type: website 
-  lifecycle: experimental
+  lifecycle: deprecated
   owner: group:mc-b/mc-b
